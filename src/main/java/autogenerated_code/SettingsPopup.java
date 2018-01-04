@@ -115,7 +115,7 @@ public class SettingsPopup extends javax.swing.JDialog {
       getContentPane().add(jLabel2);
       jLabel2.setBounds(6, 176, 200, 20);
 
-      jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/popup_bg.png"))); // NOI18N
+      jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/popup_bg.png"))); // NOI18N
       getContentPane().add(jLabel4);
       jLabel4.setBounds(0, 0, 360, 300);
 

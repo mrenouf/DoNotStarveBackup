@@ -10,3 +10,5 @@ libraryDependencies ++= Seq(
   "org.scala-lang" % "scala-swing" % "2.9.2",
   "org.scala-lang" % "scala-library" % "2.11.0",
   "org.scala-lang" % "scala-compiler" % "2.11.0")
+  
+mainClass in assembly := Some("gui.Main")

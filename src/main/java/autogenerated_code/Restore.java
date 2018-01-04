@@ -98,7 +98,7 @@ public abstract class Restore extends JDialog {
     getContentPane().add(statusDisplay);
     statusDisplay.setBounds(20, 290, 320, 16);
 
-    jLabel1.setIcon(new ImageIcon(getClass().getResource("/resources/restore_dark.png"))); // NOI18N
+    jLabel1.setIcon(new ImageIcon(getClass().getResource("/restore_dark.png"))); // NOI18N
     getContentPane().add(jLabel1);
     jLabel1.setBounds(0, 0, 560, 360);
 

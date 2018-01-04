@@ -104,11 +104,11 @@ public abstract class GuiApp extends javax.swing.JFrame {
     getContentPane().add(jScrollPane1);
     jScrollPane1.setBounds(250, 290, 330, 30);
 
-    jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/dont_starve_small.png"))); // NOI18N
+    jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dont_starve_small.png"))); // NOI18N
     getContentPane().add(jLabel2);
     jLabel2.setBounds(0, 0, 640, 360);
 
-    Image img = Toolkit.getDefaultToolkit().getImage("/resources/dontstarve.ico");
+    Image img = Toolkit.getDefaultToolkit().getImage("/dontstarve.ico");
     setIconImage(img);
 
     addWindowListener(new java.awt.event.WindowAdapter() {

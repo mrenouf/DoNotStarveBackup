@@ -78,7 +78,7 @@ public abstract class InitialPopup extends javax.swing.JDialog {
     getContentPane().add(statusLabel);
     statusLabel.setBounds(10, 250, 80, 50);
 
-    jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/init_popup_med2.png"))); // NOI18N
+    jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/init_popup_med2.png"))); // NOI18N
     getContentPane().add(jLabel2);
     jLabel2.setBounds(0, 0, 360, 380);
 
